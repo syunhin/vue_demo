@@ -1,0 +1,100 @@
+<!doctype html>
+<html style="height: 100%;">
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <!-- uc强制竖屏 -->
+  <meta name="screen-orientation" content="portrait">
+  <!-- QQ强制竖屏 -->
+  <meta name="x5-orientation" content="portrait">
+  <!-- UC强制全屏 -->
+  <meta name="full-screen" content="yes">
+  <!-- QQ强制全屏 -->
+  <meta name="x5-fullscreen" content="true"/>
+  <meta name="apple-mobile-web-app-title" content="CUniq">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+  <meta name="format-detection" content="telephone=no, email=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <title></title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="js/ui.js"></script>
+  <script src="js/qyrem.js"></script>
+
+</head>
+
+<body style="margin: 0px;height: 100%;">
+<div class="content content-bg wrap-page">
+  <div class="main" style="height:100%">
+    <div class="container tyBg" id="mainapp" style="height: 100%">
+
+      <div id="transaction_div" class="dislayb div-index">
+        <div>
+          <div class="tyTitle">宽带续约2</div>
+          <img src="./images/broadband_ty_renew/Illustration2.png" alt="" class="illustration">
+        </div>
+        <div class="tyBox">
+          <div class="tyFormBox">
+            <div class="tyTabDiv">
+              <span class="active">移动号码登录</span>
+              <span>身份证登录</span>
+            </div>
+            <div class="js_panel">
+              <div class="tyFormDiv">
+                <input type="text" id="cbNum" placeholder="请输入有宽带的移动号码">
+                <input type="text" id="smsCode" style="width: 65%;" placeholder="请输入验证码">
+                <div class="sms-code content" style="width: 35%;">发送验证码</div>
+              </div>
+              <button class="tyFormSubimt" id="getBByCNum">去办理</button>
+
+            </div>
+            <div class="js_panel hide">
+              <div class="tyFormDiv">
+                <input id="name" type="text" placeholder="请输入机主真实姓名">
+                <input id="ID_num" type="text" placeholder="请输入机主18位身份证号">
+              </div>
+              <button class="tyFormSubimt" id="getB">查找宽带账号</button>
+            </div>
+          </div>
+          <div class="bNumLogin hide">
+            <div class="tyTabDiv" style="background: rgba(0, 0, 0, 0);">
+              <span class="active" style="width: 100%;">宽带服务号码登录</span>
+            </div>
+            <div class="">
+              <div class="tyFormDiv">
+                <input type="text" id="realName" placeholder="请输入机主真实姓名">
+                <input type="text" id="realbNum" placeholder="请输入以B开头的宽带服务号码">
+              </div>
+              <button class="tyFormSubimt" id="getBByName">去办理</button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="./images/broadband_ty_renew/tyKdTitle.png" alt="" class="tyKdTitle">
+          <ul class="tyKdList" id="tyKdList">
+            <li class="tyKdListLi">
+              <div class="tyKdMsg"><span>name</span><span class="tyKdListSpan">tel</span></div>
+              <i class="tyUserExit"></i></li>
+            <li class="tyKdListLi">
+              <div class="tyKdMsg"><span>name</span><span class="tyKdListSpan">tel</span></div>
+              <i class="tyUserExit"></i></li>
+            <li class="tyKdListLi">
+              <div class="tyKdMsg"><span>name</span><span class="tyKdListSpan">tel</span></div>
+              <i class="tyUserExit"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<style>
+
+</style>
+<script>
+
+</script>
